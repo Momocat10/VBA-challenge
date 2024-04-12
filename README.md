@@ -1,0 +1,3 @@
+My name is Vivian Vera. I chose a username that may have no been wise considering my work will be graded under my reaal name for this class...
+anyways, I wasn't able to complete the greatest and least percent change but i hope i can get some points for the rest... In this repo, I included my script and the screenshots..
+
