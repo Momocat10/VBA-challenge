@@ -1,3 +1,4 @@
+
 Sub module_2_challenge()
 
     Dim ws As Worksheet
@@ -77,14 +78,15 @@ Sub module_2_challenge()
 ' So we must set a new end of row
     new_lastrow = Cells(Rows.Count, 9).End(xlUp).Row
         For i = 2 To new_lastrow
-            If ws.Cells(newtable_row, 10).Value < 0 Then
-                ws.Cells(newtable_row, 10).Interior.ColorIndex = 3
+            If ws.Cells(i, 10).Value < 0 Then
+                ws.Cells(i, 10).Interior.ColorIndex = 3
                 Else
-                ws.Cells(newtable_row, 10).Interior.ColorIndex = 4
+                ws.Cells(i, 10).Interior.ColorIndex = 4
             End If
            Next i
 
     Next ws
 
 End Sub
+
 
